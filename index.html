@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOKEPON</title>
+</head>
+<body>
+    <div class="container">
+        <section id="seleccionar-mascota">
+            <h1>MOKEPON!</h1>
+            <h2>Elige tu mascota</h2>
+            <label for="hipodoge">Hipodoge</label>
+            <input type="radio" id="hipodoge" name="mascota">
+            <label for="capipepo">Capipepo</label>
+            <input type="radio" id="capipepo" name="mascota">
+            <label for="ratigueya">Ratigueya</label>
+            <input type="radio" id="ratigueya" name="mascota">
+            <button id="seleccionar-btn">Seleccionar</button>
+        </section>
+        <section id="seleccionar-ataque">
+            <h1>MOKEPON!</h1>
+            <h2>Elige un ataque</h2>
+            <button id="fuego">Fuego</button>
+            <button id="agua">Agua</button>
+            <button id="tierra">Tierra</button>
+        </section>
+        <section id="info">
+            <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+        </section>
+        <section id="mensajes">
+
+        </section>
+        <section id="mensajes-resultado">
+            <h4><span id="resultado-ataque"></span></h4>
+            <h4><span id="resultado-batalla"></span></h4>
+        </section>
+        <section id="reiniciar-game">
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
